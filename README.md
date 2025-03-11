@@ -88,6 +88,7 @@ Lycka till!
 - [OpenTofu Dokumentation](https://opentofu.org/docs/)
 - [Terraform .tfvars files: Variables Management with Examples](https://spacelift.io/blog/terraform-tfvars)
 - [Variables & Outputs](https://opentofu.org/docs/language/values/)
+- [Terraform .id explanation](https://stackoverflow.com/questions/52293081/terraform-id-explanation)
 - [Terraform AWS Provider](https://search.opentofu.org/provider/terraform-providers/aws/latest)
     - [Resource: EC2 instance](https://search.opentofu.org/provider/terraform-providers/aws/latest/docs/resources/instance)
 - [State Files & Debugging](https://opentofu.org/docs/language/state/)
