@@ -19,6 +19,10 @@ resource "aws_key_pair" "deployer_key" {
 
 # Skapa en EC2-instans
 resource "aws_instance" "webserver" {
+  ami           = var.ami_id
+
+  instance_type = var.instance_type
+
   key_name        = aws_key_pair.deployer_key.key_name
 
   vpc_security_group_ids = [aws_security_group.web_sg]

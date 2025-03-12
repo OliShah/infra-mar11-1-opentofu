@@ -11,7 +11,7 @@ variable "aws_region" {
 variable "ami_id" {
   description = "Amazon Machine Image (AMI) ID"
   type        = string
-  default     = "ami-05b10e08d247fb927" # Amazon Linux 2023
+  default     = "ami-08b5b3a93ed654d19" # Amazon Linux 2023
 }
 
 variable "instance_type" {
