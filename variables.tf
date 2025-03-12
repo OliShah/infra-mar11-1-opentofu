@@ -29,7 +29,7 @@ variable "key_name" {
 variable "public_key_path" {
   description = "Sökväg till den publika (<filnamn>.pub) SSH-nyckeln"
   type        = string
-  default     = "~/.ssh/key.pub"
+  default     = "~/.ssh/tofu-key.pub"
 }
 
 variable "trusted_ips_for_ssh" {
